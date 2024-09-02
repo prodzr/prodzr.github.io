@@ -1,0 +1,21 @@
+body {
+    background-color: #b3b3b3;
+  }
+  
+  
+  h1 {
+  
+  font-family: eckmannpsych-large, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    letter-spacing: 10px;
+    transition: all 1s;
+    color: #990000;
+    font-size: 20rem;
+  }
+  
+  h1:hover {
+    color: #ffffff;
+    letter-spacing: normal;
+    transition: all 1s;
+  }
