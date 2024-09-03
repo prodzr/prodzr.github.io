@@ -1,21 +1,37 @@
 body {
-    background-color: #b3b3b3;
+    background-color: #000000;
   }
   
   
   h1 {
   
-  font-family: eckmannpsych-large, sans-serif;
+  font-family: archivo-black, sans-serif;
   font-weight: 400;
   font-style: normal;
     letter-spacing: 10px;
     transition: all 1s;
-    color: #990000;
+    color: #e70f0e;
     font-size: 20rem;
   }
+
+  h2 {
+
+    font-family: archivo-black, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #e70f0e;
+    font-size: 4rem;
+    text-align: center;
+  }
   
+  p {
+    font-family: museo-slab, serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #ffffff;
+  }
  .topnav {
-    background-color: #990000;
+    background-color: #000000;
     overflow: hidden;
  }
 
@@ -26,14 +42,18 @@ body {
     padding: 14px 16px; 
     text-decoration: none;
     font-size: 17px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
  }
 
  .topnav a:hover {
-    background-color: #ddd;
-    color:black;
+    color:#e70f0e;
  }
 
  .topnav a.active {
-    background-color: #04aa6d;
-    color: white
+    color: #e70f0e;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
  }
